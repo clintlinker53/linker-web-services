@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,74 +8,74 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #f8f9fa;
+      background: #f4f4f4;
+      text-align: center;
       color: #333;
     }
-    header, footer {
-      background: #0d6efd;
+
+    header {
+      background: #007bff;
       color: white;
-      text-align: center;
-      padding: 1rem 0;
+      padding: 20px 0;
     }
-    nav {
-      background: #e9ecef;
-      padding: 1rem;
-      text-align: center;
+
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
     }
-    nav a {
-      margin: 0 15px;
+
+    p {
+      font-size: 1.2em;
+    }
+
+    .content {
+      padding: 40px 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #28a745;
+      color: white;
+      padding: 15px 25px;
+      font-size: 1em;
       text-decoration: none;
-      color: #0d6efd;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    .chatbot-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #007bff;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 50px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
       font-weight: bold;
+      cursor: pointer;
+      z-index: 999;
     }
-    section {
-      max-width: 900px;
-      margin: auto;
-      padding: 2rem;
-      background: white;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-      margin-top: 2rem;
-    }
-    h1, h2 {
-      color: #0d6efd;
+
+    .chatbot-button:hover {
+      background: #0056b3;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Linker Web Services</h1>
-    <p>Your partner in modern web solutions</p>
+    <p>Modern websites and online tools for dentists</p>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <div class="content">
+    <h2>Get Started with Your New Website</h2>
+    <p>Whether you want to build it yourself or have us do it all for you — we've got your back.</p>
+    <a href="#" class="btn">Book an Appointment</a>
+  </div>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Linker Web Services provides dentists with fast, beautiful, and effective websites. Whether you want to build your own or have it done for you, we make it easy to get started. Our mission is to help your practice grow by making sure no patient leaves your website frustrated.</p>
-  </section>
-
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Done-for-you dental websites</li>
-      <li>Easy drag-and-drop website builder</li>
-      <li>Online appointment scheduling</li>
-      <li>Chat and phone answering integrations</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: info@linkerwebservices.com</p>
-    <p>Phone: (555) 123-4567</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Linker Web Services</p>
-  </footer>
+  <div class="chatbot-button" onclick="alert('Chatbot coming soon!')">
+    Chat with Us 💬
+  </div>
 </body>
 </html>
