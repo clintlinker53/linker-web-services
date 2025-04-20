@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - Linker Web Services</title>
+  <title>Services - Linker Web Services</title>
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
       background: #f4f4f4;
       color: #333;
+      line-height: 1.6;
       text-align: center;
     }
 
@@ -42,38 +43,20 @@
 
     .container {
       padding: 40px 20px;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
     }
 
-    form {
+    .service {
       background: white;
+      margin-bottom: 30px;
       padding: 30px;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
 
-    input, textarea {
-      width: 100%;
-      padding: 12px;
-      margin: 10px 0;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 1em;
-    }
-
-    button {
-      background: #28a745;
-      color: white;
-      border: none;
-      padding: 12px 25px;
-      font-size: 1em;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background: #218838;
+    .service h2 {
+      color: #007bff;
     }
 
     footer {
@@ -81,7 +64,11 @@
       color: #ccc;
       padding: 20px 10px;
       font-size: 0.9em;
-      margin-top: 40px;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -95,20 +82,31 @@
   </nav>
 
   <header>
-    <h1>Contact Us</h1>
+    <h1>Our Services</h1>
   </header>
 
   <div class="container">
-    <p>Questions? Ready to get started? Send us a message and we’ll get back to you ASAP.</p>
+    <div class="service">
+      <h2>Professional Websites</h2>
+      <p>We build modern, mobile-friendly websites designed to convert visitors into booked appointments. Your site will be clean, fast, and focused on what patients care about most.</p>
+    </div>
 
-    <form action="https://formspree.io/f/mldjqgqy" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+    <div class="service">
+      <h2>Your AI Employee</h2>
+      <p>Never miss a call again. Our AI employee answers your phone 24/7, speaks with patients using a natural voice, and can schedule appointments or take detailed messages. It's like hiring a receptionist who never sleeps.</p>
+    </div>
 
-    <p>Or reach us directly at <strong>info@linkerwebservices.com</strong></p>
+    <div class="service">
+      <h2>Chatbots & Patient Messaging</h2>
+      <p>Smart chatbots are built into your website to handle common questions, collect new patient info, and help with scheduling—so patients always feel taken care of, even after hours.</p>
+    </div>
+
+    <div class="service">
+      <h2>Appointment Scheduling Tools</h2>
+      <p>Patients can book appointments online with ease—right from your website. We integrate calendar tools so you stop playing phone tag and start filling your schedule faster.</p>
+    </div>
+
+    <p><strong>Want to see it in action?</strong> <a href="contact.html">Contact us</a> and let’s talk about getting your AI employee set up today.</p>
   </div>
 
   <footer>
